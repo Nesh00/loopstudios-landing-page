@@ -1,0 +1,165 @@
+.creations {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 12rem 0 0 0;
+  text-transform: uppercase;
+
+  &-header {
+    margin-left: 1.2rem;
+    font-size: 3rem;
+    font-family: $font-secondary;
+    font-weight: 300;
+    color: $black;
+  }
+
+  &-btn {
+    margin-left: auto;
+    margin-right: 1.8rem;
+    font-size: 1rem;
+    text-decoration: none;
+    letter-spacing: 0.25rem;
+    border: 2px solid $black;
+    padding: 0.8rem 2.5rem;
+    color: $black;
+
+    &:hover {
+      background: $black;
+      color: $white;
+    }
+  }
+
+  &-imgs {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 5rem;
+
+    &--1 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-deep-earth.jpg);
+    }
+    &--2 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-night-arcade.jpg);
+    }
+    &--3 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-soccer-team.jpg);
+    }
+    &--4 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-grid.jpg);
+    }
+    &--5 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-from-above.jpg);
+    }
+    &--6 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-pocket-borealis.jpg);
+    }
+    &--7 {
+      background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+        url(/images/desktop/image-curiosity.jpg);
+    }
+    &--8 {
+      background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+        url(/images/desktop/image-fisheye.jpg);
+    }
+  }
+}
+
+.img {
+  height: 25rem;
+  width: 15rem;
+  position: relative;
+  cursor: pointer;
+
+  &:hover::before {
+    content: '';
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.75);
+    opacity: 0.8;
+  }
+
+  &-description {
+    font-size: 2rem;
+    font-family: $font-secondary;
+    position: absolute;
+    left: 2.5rem;
+    bottom: 1.5rem;
+  }
+}
+
+//Tablet and bellow screen size
+@media screen and (max-width: 56.25em) {
+  .creations {
+    flex-direction: column;
+    padding: 0 2rem;
+
+    &-header {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-left: 0;
+    }
+
+    &-btn {
+      order: 3;
+      align-self: center;
+      margin: 3rem 0 6rem 0;
+    }
+
+    &-imgs {
+      margin-top: 3rem;
+
+      &--1 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-deep-earth.jpg);
+      }
+      &--2 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-night-arcade.jpg);
+      }
+      &--3 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-soccer-team.jpg);
+      }
+      &--4 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-grid.jpg);
+      }
+      &--5 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-from-above.jpg);
+      }
+      &--6 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-pocket-borealis.jpg);
+      }
+      &--7 {
+        background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)),
+          url(/images/mobile/image-curiosity.jpg);
+      }
+      &--8 {
+        background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
+          url(/images/mobile/image-fisheye.jpg);
+      }
+    }
+  }
+
+  .img {
+    background-size: cover;
+    height: 10rem;
+    width: 100%;
+
+    &-description {
+      width: 9rem;
+      font-size: 1.5rem;
+      left: 1rem;
+      bottom: 1rem;
+    }
+  }
+}

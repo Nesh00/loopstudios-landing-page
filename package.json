@@ -1,0 +1,21 @@
+{
+  "name": "loopstudios-landing-page-main",
+  "version": "1.0.0",
+  "description": "LoopStudios Website",
+  "main": "script.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss style.css -w"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "SCSS",
+    "SASS"
+  ],
+  "author": "Nenad Tsvetanovski",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

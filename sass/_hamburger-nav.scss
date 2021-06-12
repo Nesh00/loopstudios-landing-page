@@ -1,0 +1,57 @@
+@media screen and (min-width: 56.26em) {
+  .hamburger-container {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .hamburger {
+    &-container {
+      background: $black;
+      height: 100%;
+      width: 100%;
+      position: fixed;
+      overflow-y: hidden;
+      z-index: 2;
+    }
+
+    &-nav {
+      display: block;
+      position: absolute;
+      left: 1.3rem;
+      top: 50%;
+      transform: translateY(-50%);
+      font-family: $font-secondary;
+      font-size: 1.5rem;
+      text-transform: uppercase;
+    }
+
+    &-item {
+      margin-bottom: 1.5rem;
+    }
+
+    &-link {
+      &-link:hover::after {
+        content: '';
+        height: 0.12rem;
+        width: inherit;
+        background: $white;
+        position: absolute;
+        left: 50%;
+        bottom: -0.4rem;
+        transform: translateX(-50%);
+      }
+    }
+
+    &-close {
+      position: absolute;
+      top: 3.4rem;
+      right: 1.4rem;
+    }
+
+    &-menu {
+      margin-top: 0.5rem;
+      display: block;
+    }
+  }
+}

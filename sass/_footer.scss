@@ -1,0 +1,62 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 2.5rem 7rem;
+  background: $black;
+
+  &-logo {
+    margin-bottom: 0.5rem;
+  }
+
+  &--1,
+  &--2 {
+    display: block;
+  }
+
+  &--contact {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  &-copyrights {
+    color: $dark-gray;
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 56.25em) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+    padding: 2.5rem 5rem;
+
+    &-logo {
+      margin: 2rem 0;
+    }
+
+    &-nav {
+      display: block;
+      text-align: center;
+      margin-left: 1.5rem;
+    }
+
+    &-item {
+      font-size: 1.1rem;
+      margin-bottom: 2rem;
+
+      &:last-child {
+        margin-left: -2rem;
+      }
+    }
+
+    &--contact {
+      justify-content: center;
+    }
+
+    &-copyrights {
+      font-size: 0.9rem;
+    }
+  }
+}
