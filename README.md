@@ -30,7 +30,8 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- GitHub: https://github.com/Nesh00/loopstudios-landing-page
+- Live Site URL: https://loopstudios-landing-page-nenad.netlify.app/
 
 ## My process
 
@@ -43,6 +44,6 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
+- Website - https://loopstudios-landing-page-nenad.netlify.app/
 - Frontend Mentor - https://www.frontendmentor.io/profile/Nesh00
 - Twitter - https://twitter.com/nenad37452460
