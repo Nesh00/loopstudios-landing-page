@@ -15,7 +15,7 @@
     left: 7.9rem;
     bottom: 3.2rem;
     height: 18.4rem;
-    max-width: 40.9rem;
+    width: 40.9rem;
     border: 2px solid white;
     padding: 2.5rem;
 
@@ -63,7 +63,7 @@
   }
 }
 
-.hamburger-menu {
+.hidden {
   display: none;
 }
 
@@ -71,7 +71,7 @@
   .header {
     padding: 3rem 2.3rem 0 1.3rem;
     background: no-repeat url(/images/mobile/image-hero.jpg);
-    // background-size: 100%;
+    background-size: cover;
     background-position: center;
 
     &-headline {
@@ -92,7 +92,7 @@
     }
   }
 
-  .hidden {
+  .nav {
     display: none;
   }
 }

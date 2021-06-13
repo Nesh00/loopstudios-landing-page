@@ -1,8 +1,6 @@
-// @media screen and (min-width: 56.26em) {
-//   .hamburger-container {
-//     display: none;
-//   }
-// }
+.hamburger-menu {
+  display: none;
+}
 
 @media screen and (max-width: 56.25em) {
   .hamburger {
@@ -27,7 +25,7 @@
     }
 
     &-item {
-      margin-bottom: 1.5rem;
+      margin-bottom: 2rem;
     }
 
     &-link {
@@ -46,7 +44,7 @@
     &-close {
       position: absolute;
       top: 3.4rem;
-      right: 1.4rem;
+      right: 2.5rem;
     }
 
     &-menu {
