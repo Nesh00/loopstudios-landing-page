@@ -2,6 +2,9 @@
   display: none;
 }
 
+@media screen and (min-width) {
+}
+
 @media screen and (max-width: 56.25em) {
   .hamburger {
     &-container {

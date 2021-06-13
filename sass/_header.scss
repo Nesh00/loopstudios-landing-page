@@ -69,6 +69,7 @@
 
 @media screen and (max-width: 56.25em) {
   .header {
+    height: 100vh;
     padding: 3rem 2.3rem 0 1.3rem;
     background: no-repeat url(/images/mobile/image-hero.jpg);
     background-size: cover;
@@ -79,15 +80,15 @@
       left: 50%;
       top: 50%;
       transform: translate(-50%, -50%);
-      height: 14rem;
-      width: 25rem;
-      padding: 2rem;
+      height: 12rem;
+      width: 23rem;
+      padding: 1.5rem;
       display: flex;
       align-items: center;
 
       &--main {
-        font-size: 3rem;
-        line-height: 1;
+        font-size: 2.7rem;
+        line-height: 1.1;
       }
     }
   }
