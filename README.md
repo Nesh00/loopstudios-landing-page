@@ -23,13 +23,12 @@ Users should be able to:
 
 ### Screenshot
 
-(/design/desktop-design.phg)
-(/design/mobile-design.phg)
-(/design/mobile-menu.phg)
+![](./design/desktop-design.phg)
+![](./design/mobile-design.phg)
+![](./design/mobile-menu.phg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
 - GitHub: https://github.com/Nesh00/loopstudios-landing-page
 - Live Site URL: https://loopstudios-landing-page-nenad.netlify.app/
 
@@ -39,6 +38,7 @@ Users should be able to:
 
 - Semantic HTML5 markup
 - CSS
+- SASS
 - Flexbox
 - JavaScript
 
