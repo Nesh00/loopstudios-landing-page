@@ -23,9 +23,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./design/desktop-design.phg)
-![](./design/mobile-design.phg)
-![](./design/mobile-menu.phg)
+![](./design/desktop-design.png)
+![](./design/mobile-design.png)
+![](./design/mobile-menu.png)
 
 ### Links
 
